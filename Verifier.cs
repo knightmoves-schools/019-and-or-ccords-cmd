@@ -2,11 +2,15 @@
 public class Verifier
 {
 public string Taxable(string state, bool taxExempt) {
-  if (state == 'IA' && taxExempt == false) {
+  if (state == "IA" && !taxExempt) {
     return "is taxable";
+  }else{
+    return "";
   }}
 public string IsVehicle(bool hasWheels, bool canFly, bool canSwim) {
-  if (hasWheels == true || canFly == true || canSwim == true) {
+  if (hasWheels || canFly || canSwim) {
     return "is vehicle";
+  }else{
+    return "";
   }}
 }
