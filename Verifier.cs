@@ -18,4 +18,4 @@ should return the string "is vehicle" from IsVehicle when hasWheels is true and 
 should return the string "is vehicle" from IsVehicle when canFly is true and hasWheels and canSwim are both false
 should return the string "is vehicle" from IsVehicle when canSwim is true and canFly and hasWheels are both false
 should return the string "is vehicle" from IsVehicle when canSwim and canFly are both true and hasWheels is false
-should return an empty string ("") from IsVehicle when hasWheels, canFly, and canSwim are all false
+should return an empty string ("") from IsVehicle when hasWheels, canFly, and canSwim are all false*/ 
